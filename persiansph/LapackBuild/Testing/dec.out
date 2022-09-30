@@ -1,0 +1,10 @@
+ Tests of the Nonsymmetric eigenproblem condition estimation routines
+ DLALN2, DLASY2, DLANV2, DLAEXC, DTRSYL, DTREXC, DTRSNA, DTRSEN, DLAQTR
+
+ Relative machine precision (EPS) =     0.222045D-15
+ Safe minimum (SFMIN)             =     0.222507-307
+
+ Routines pass computational tests if test ratio is less than   20.00
+
+
+ ** On entry to DTRSYL parameter number  1 had an illegal value

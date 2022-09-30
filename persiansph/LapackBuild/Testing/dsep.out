@@ -1,0 +1,19 @@
+ Tests of the Symmetric Eigenvalue Problem routines
+
+ LAPACK VERSION 3.5.0
+
+ The following parameter values will be used:
+    M:         0     1     2     3     5    20
+    N:         0     1     2     3     5    20
+    NB:        1     3     3     3    10
+    NBMIN:     2     2     2     2     2
+    NX:        1     0     5     9     1
+
+ Relative machine underflow is taken to be    0.222507-307
+ Relative machine overflow  is taken to be    0.179769+309
+ Relative machine precision is taken to be    0.111022D-15
+
+ Routines pass computational tests if test ratio is less than   50.00
+
+
+ ** On entry to DSYTRD parameter number  1 had an illegal value

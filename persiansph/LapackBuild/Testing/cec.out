@@ -1,0 +1,10 @@
+ Tests of the Nonsymmetric eigenproblem condition estimation routines
+ CTRSYL, CTREXC, CTRSNA, CTRSEN
+
+ Relative machine precision (EPS) =     0.119209E-06
+ Safe minimum (SFMIN)             =     0.117549E-37
+
+ Routines pass computational tests if test ratio is less than   20.00
+
+
+ ** On entry to CTRSYL parameter number  1 had an illegal value

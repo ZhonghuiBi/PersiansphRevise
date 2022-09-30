@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\blas.dir/objects.a
+F:\MinGW\bin\ar.exe cr CMakeFiles\blas.dir/objects.a @CMakeFiles\blas.dir\objects1.rsp
+F:\MinGW\bin\mingw32-gfortran.exe -shared -o ..\..\bin\libblas.dll -Wl,--out-implib,..\..\lib\libblas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\blas.dir/objects.a -Wl,--no-whole-archive -Wl,--output-def,blas.def
+"C:\Program Files\CMake\bin\cmake.exe" -Dlib="D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=blas.def -Ddll=..\..\bin\libblas.dll -Dimp=..\..\lib\libblas.dll.a -P "C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/GNUtoMS_lib.cmake"

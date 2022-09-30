@@ -1,0 +1,9 @@
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/testversion.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/secondtst_INT_ETIME.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/secondtst_NONE.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/secondtst_EXT_ETIME.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/secondtst_EXT_ETIME_.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/testieee.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/secondtst_INT_CPU_TIME.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/edit_cache.dir
+D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/INSTALL/CMakeFiles/rebuild_cache.dir

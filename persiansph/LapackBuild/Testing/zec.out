@@ -1,0 +1,10 @@
+ Tests of the Nonsymmetric eigenproblem condition estimation routines
+ ZTRSYL, ZTREXC, ZTRSNA, ZTRSEN
+
+ Relative machine precision (EPS) =     0.222045D-15
+ Safe minimum (SFMIN)             =     0.222507-307
+
+ Routines pass computational tests if test ratio is less than   20.00
+
+
+ ** On entry to ZTRSYL parameter number  1 had an illegal value

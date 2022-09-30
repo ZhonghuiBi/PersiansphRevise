@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\lapack.dir/objects.a
+F:\MinGW\bin\ar.exe cr CMakeFiles\lapack.dir/objects.a @CMakeFiles\lapack.dir\objects1.rsp
+F:\MinGW\bin\mingw32-gfortran.exe -shared -o ..\bin\liblapack.dll -Wl,--out-implib,..\lib\liblapack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\lapack.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\lapack.dir\linklibs.rsp -Wl,--output-def,lapack.def
+"C:\Program Files\CMake\bin\cmake.exe" -Dlib="D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=lapack.def -Ddll=..\bin\liblapack.dll -Dimp=..\lib\liblapack.dll.a -P "C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/GNUtoMS_lib.cmake"

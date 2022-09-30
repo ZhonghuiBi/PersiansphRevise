@@ -1,0 +1,12 @@
+ TESTS OF THE DOUBLE PRECISION LEVEL 3 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9
+   FOR ALPHA             0.0   1.0   0.7
+   FOR BETA              0.0   1.0   1.3
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  2.2D-16
+
+ ** On entry to DGEMM parameter number  1 had an illegal value

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{a36c357c-59eb-4795-b7f7-d5bbd1f3c9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{14c88a90-0b79-4ced-bfaa-798901406234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{ed13722c-6242-499e-bffa-222d2fa4eede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OldTest">
+      <UniqueIdentifier>{379caee2-e6bd-4669-baff-bb3893116642}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="fatal.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="laexpr.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="matvec.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary_Condition.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="blitz\tinyvec-et.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="blitz\tinyvec.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Boundary_Condition.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Interaction.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="1-Poiseuille.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="2-Couette.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="3-DamBreak.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="4-DamBreak3D.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Current-flow.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Current-flow_elastoplastic.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Dam_Scouring.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Dam_Scouring2.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Darcy.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Drag.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Drag_LES.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\DragWinp.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\DragWinp2-load.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\DragWinp3D.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Embankment.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Embankment2.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Embankment3.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Embankment4.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Embankment5.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Fluidization.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\FSI_ElasticGate.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Hagen.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Hydraulic_Heave.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\HydraulicJump.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\hydrostatic.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\hydrostatic-Soil.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Jet_Scouring.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Oscillating-Plate.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Overtopping.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Overtopping2.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Plate-Yield.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Poiseuille-Bingham.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\ReposeAngle.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\ReposeAngle2.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Old_Tests\Rheometer.cpp">
+      <Filter>OldTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

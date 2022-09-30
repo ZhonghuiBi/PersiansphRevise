@@ -1,0 +1,22 @@
+
+ Tests of the Generalized Nonsymmetric Eigenvalue Problem Driver DGGES
+
+ LAPACK VERSION 3.5.0
+
+ The following parameter values will be used:
+    M:         2     6    10    12    20
+    N:         2     6    10    12    20
+    NB:        1
+    NBMIN:     1
+    NX:        1
+    NS:        2
+    MAXB:      1
+
+ Relative machine underflow is taken to be    0.222507-307
+ Relative machine overflow  is taken to be    0.179769+309
+ Relative machine precision is taken to be    0.111022D-15
+
+ Routines pass computational tests if test ratio is less than   10.00
+
+
+ ** On entry to DGGES parameter number  1 had an illegal value

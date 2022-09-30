@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\tmglib.dir/objects.a
+F:\MinGW\bin\ar.exe cr CMakeFiles\tmglib.dir/objects.a @CMakeFiles\tmglib.dir\objects1.rsp
+F:\MinGW\bin\mingw32-gfortran.exe -shared -o ..\..\bin\libtmglib.dll -Wl,--out-implib,..\..\lib\libtmglib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\tmglib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\tmglib.dir\linklibs.rsp -Wl,--output-def,tmglib.def
+"C:\Program Files\CMake\bin\cmake.exe" -Dlib="D:/persiansph/Persiansph/persiansph/persiansph/LapackBuild/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=tmglib.def -Ddll=..\..\bin\libtmglib.dll -Dimp=..\..\lib\libtmglib.dll.a -P "C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/GNUtoMS_lib.cmake"
